@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.otro{
+    max-width: 100%;    
+}
+
+.principal{
+    display: inline-block;
+}
+
+nav, a {
+    display: block;
+}
+
+article{
+    display: block;
+}
+
+h2 {
+    background-color: black;
+    color: white;
+}
