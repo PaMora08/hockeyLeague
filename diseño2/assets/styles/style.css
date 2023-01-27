@@ -7,51 +7,72 @@
 }
 
 header {
-    padding: 0% 5px;
+    padding: 0 5px;
+}
+
+header > h1 {
+    font-size: 65px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 50px;
 }
 
 header > img {
     height: 250px; 
     width: 100%;
-    padding: 0;
+    padding: 0px;
     display: block;
+    border: 2px solid black;    
 }
 
 nav{
-    text-align: end;
-    padding: 0px 10px;
+
+    padding: 10px 10px;
+    position: relative;
+    top: 20px;
+    left: calc(100% - 350px);
+    
 }
 
-a { 
-    border: 1px solid black;
-    box-shadow: ;
+nav > a { 
+    border: 2px solid black;
+    box-shadow: 5px 5px rgb(179, 179, 179) ;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(102, 204, 102);
+    background-color: rgb(0, 153, 255) ;
     color: white;
     text-decoration: none;
 }
 
-nav a:link {
-    background-color: rgb(0, 153, 255);
+.activo{
+    background-color: rgb(102, 204, 102) ;
 }
 
-h2 {
-    background-color: black;
-    color: white;
+header > h2 {
     text-align: center;
+    border: 2px solid black;
     display: block;
+    padding: 0;
+    margin: 0;
 }
 
-.logo {
+section {
     display: inline-block;
+    padding: 10px;
+    margin: auto;
 }
 
-article {
-    display: inline-block;
-    padding: 30px;
+.pato{
+    position: relative;
+    top: 50px;
 }
 
+.info {
+    position: absolute;
+    top: calc(100% -450 px);
+    left: calc(100% -300px);
+}
 h3 {
     padding: 10px;
 }
@@ -64,3 +85,4 @@ p{
     display: block;
     padding: 10px;
 }
+
