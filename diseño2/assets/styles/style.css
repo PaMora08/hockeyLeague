@@ -15,7 +15,7 @@ header > h1 {
     padding: 0;
     margin: 0;
     position: relative;
-    top: 0px;
+    top: 50px;
 }
 
 header > img {
@@ -55,9 +55,10 @@ header > h2 {
     display: block;
     padding: 0;
     margin: 0;
+    font-weight: 900;
 }
 
-section {
+div {
     display: inline-block;
     padding: 10px;
     margin: auto;
@@ -70,8 +71,6 @@ section {
 
 .info {
     position: absolute;
-    top: calc(100% -450 px);
-    left: calc(100% -300px);
 }
 h3 {
     padding: 10px;
@@ -79,11 +78,11 @@ h3 {
 
 p{
     font-size:larger;
+    padding: 0 35px ;
 }
 
 .jugador {
-    display: block;
-    padding: 10px;
+    padding: 40px;
 }
 
 .email{
