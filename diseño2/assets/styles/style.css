@@ -11,11 +11,11 @@ header {
 }
 
 header > h1 {
-    font-size: 65px;
+    font-size: 45px;
     padding: 0;
     margin: 0;
     position: relative;
-    top: 50px;
+    top: 17px;
 }
 
 header > img {
@@ -30,8 +30,8 @@ nav{
 
     padding: 10px 10px;
     position: relative;
-    top: 20px;
-    left: calc(100% - 350px);
+    top: -300px;
+    left: calc(100% - 500px);
     
 }
 
@@ -58,20 +58,27 @@ header > h2 {
     font-weight: 900;
 }
 
-div {
-    display: inline-block;
+.container {
+    display: flex;
+    flex-wrap: row grap;
+    column-gap: 70px;
+    
     padding: 10px;
     margin: auto;
 }
 
-.pato{
-    position: relative;
-    top: 50px;
+.pato {
+    width: 100px;
+}
+.titulo{
+    text-align: center;
+    padding: 0 0 30px 0;
 }
 
-.info {
-    position: absolute;
+h2 {
+    padding: 20px;
 }
+
 h3 {
     padding: 10px;
 }
@@ -80,6 +87,13 @@ p{
     font-size:larger;
     padding: 0 35px ;
 }
+
+
+.lista > li {
+    font-size: larger;    
+    padding: 20px;
+}
+
 
 .jugador {
     padding: 40px;
